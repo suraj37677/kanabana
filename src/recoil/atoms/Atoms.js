@@ -9,7 +9,7 @@ export const taskDetails = atom({
   key: "task details",
   default: {},
 });
-
+// its only define for dark mod recoil statmanangement
 
 export const darkMode= atom({
   key:"dark mode",

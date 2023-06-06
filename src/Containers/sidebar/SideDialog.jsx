@@ -9,10 +9,10 @@ export default function SideDialog({ open, setOpen }) {
   const darkModeOn = useRecoilValue(darkMode);
   const [newMember, setNewMember] = useState("");
   const [members, setMembers] = useState([
-    "Chand babu",
-    "Ruturaj Mengal",
-    "Kajal gupta",
-    "Rohit kirti",
+    "RiyaSingh",
+    "suraj sahoo",
+    "Ashish mahale",
+    "Anshul mishra",
   ]);
   const [showMembers, setShowMembers] = useState(false);
   const [copied, setCopied] = useState(false);

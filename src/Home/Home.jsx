@@ -4,7 +4,7 @@ import Navbar from "../Containers/Navbar/Navigation";
 import Board from "../Containers/board/Board";
 import Sidebar from "../Containers/sidebar/Sidebar";
 import style from "../Home/Home.module.css";
-import first from "../utils/first.jpeg";
+import first from "../utils/pexels-fathi-vee-1020478.jpg";
 import clone from "../utils/clone.jpg";
 import MImage from "../utils/MImage.jpg";
 import gexupdate from "../utils/gxupdate.jpg";
@@ -30,16 +30,16 @@ const Home = () => {
         <Navbar />
       </div>
       <div className={style.container}>
-        {/* <div
-          className={` ${style.sideBarContainer} ${
-            collapsed ? style.collapsed : null
-          }`}
+        <div
+          // className={` ${style.sideBarContainer} ${
+          //   collapsed ? style.collapsed : null
+          // }`}
         >
-          {collapsed ? (
-            <button id={style.expandBtn} onClick={handleCollapse}>
-              <NavigateNextIcon sx={{ fontSize: "1.5rem" }} />
-            </button>
-          ) : (
+          {/* {collapsed ? (
+          //   <button id={style.expandBtn} onClick={handleCollapse}>
+          //     <NavigateNextIcon sx={{ fontSize: "1.5rem" }} />
+          //   </button>
+          // ) : (
             // <Sidebar
             //   collapsed={collapsed}
             //   setCollapsed={setCollapsed}
@@ -47,14 +47,14 @@ const Home = () => {
             //   changeTheme={changeTheme}
             // />
             null
-          )}
-        </div> */}
+          )} */}
+        </div>
 
         <div
           className={` ${style.boardContainer} ${
             collapsed ? style.collapsed : null
           }`}
-          style={{ backgroundImage: `url(${backgroundImages[Theme]})` }}
+          style={{ backgroundImage: `url(${backgroundImages[Theme]})`,width:"100% "}}
         >
           <Board />
         </div>
